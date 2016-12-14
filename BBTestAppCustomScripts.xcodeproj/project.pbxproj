@@ -71,9 +71,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 833881041E01F4A700B40027 /* Build configuration list for PBXNativeTarget "BBTestAppCustomScripts" */;
 			buildPhases = (
+				833881071E01FF0400B40027 /* ShellScript */,
 				833880EE1E01F4A600B40027 /* Sources */,
 				833880EF1E01F4A600B40027 /* Frameworks */,
 				833880F01E01F4A600B40027 /* Resources */,
+				833881081E01FF2C00B40027 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -131,6 +133,35 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		833881071E01FF0400B40027 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"I am a run phase script 1\"";
+		};
+		833881081E01FF2C00B40027 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"I am a run phase script 2\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		833880EE1E01F4A600B40027 /* Sources */ = {
